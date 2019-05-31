@@ -21,9 +21,7 @@
 		</div>
 
 		<div class="game">
-			<div class="cha-dragon cha ani"></div>
-			<div class="cha-red cha"></div>
-			<div class="cha-blue cha"></div>
+			<h2></h2>
 		</div>
 
 	</div>
@@ -39,12 +37,14 @@
 
 		myShakeEvent.start();
 
+		var num = 0;
 		window.addEventListener('shake', shakeEventDidOccur, false);
 
 		//function to call when shake occurs
 		function shakeEventDidOccur () {
+			num++;
+			$("h2").html(num);
 
-blue.chaClick();
 			
 		}
 
