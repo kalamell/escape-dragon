@@ -39,7 +39,7 @@ var blue = {
 		var run= 0;
 		//$(document).on('keyup',function(e){
 			if(run<limit){
-				if(e.which==191){
+				//if(e.which==191){
 			        blue.player.addClass('ani');
 			        blue.player.css({'transform': 'scale('+zoomIn+')'});
 		        	zoomIn += scaleIn;
@@ -47,7 +47,7 @@ var blue = {
 					blueRun++;
 		    		compare();
 		    		result();
-		    	}
+		    	//}
 		    }
 		//});
 
