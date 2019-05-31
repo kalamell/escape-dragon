@@ -37,7 +37,7 @@ var blue = {
 	chaClick: function() {
 		var zoomIn = blue.zoom;
 		var run= 0;
-		$(document).on('keyup',function(e){
+		//$(document).on('keyup',function(e){
 			if(run<limit){
 				if(e.which==191){
 			        blue.player.addClass('ani');
@@ -49,7 +49,7 @@ var blue = {
 		    		result();
 		    	}
 		    }
-		});
+		//});
 
     }
 }

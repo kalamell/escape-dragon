@@ -28,6 +28,26 @@
 
 	</div>
 	<script src="assets/script/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/shake.js"></script>
 	<script src="assets/script/main.js"></script>
+	<script>
+		var myShakeEvent = new Shake({
+			threshold: 15, // optional shake strength threshold
+			timeout: 1000 // optional, determines the frequency of event generation
+		});
+
+
+		myShakeEvent.start();
+
+		window.addEventListener('shake', shakeEventDidOccur, false);
+
+		//function to call when shake occurs
+		function shakeEventDidOccur () {
+
+			
+		}
+
+
+	</script>
 </body>
 </html>
