@@ -82,6 +82,7 @@ blue.chaClick();
 
 
 // result
+/*
 setTimeout(function(){
     $('.win').removeClass('active');
     $('.lose').addClass('active');
@@ -90,4 +91,5 @@ setTimeout(function(){
 	    window.location.href = 'index.html';
 	}, 6500);
 }, 6500);
+*/
 		
